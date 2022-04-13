@@ -48,43 +48,52 @@
           </div>
         </div>
       </nav>
-    </header>
+    </header>  
     <body>
-        <div class="mainbox">
-            <div class="title-box">
-              <h1><a href="index.html">자기소개서</a></h1>
+      <div class="main-box">
+        <input type="button" value="night" onclick="    // 검은색 배경에 하얀색 글자로 바꾸기
+         document.querySelector('body').style.backgroundColor='black'
+         document.querySelector('body').style.Color='white'">
+         <input type="button" value="day" onclick="     // 하얀색 배경에 검은색 글자로 바꾸기
+         document.querySelector('body').style.backgroundColor='white'
+        document.querySelector('body').style.Color='black'
+        ">
+        <div class="title-box">
+          <h1>자기소개서</h1>
+        </div>
+        <section>
+          <h2>소개</h2>
+          <div id="grid">
+            <ol>
+              <li><a href="index1.html">경험</a></li>
+              <li><a href="index2.html" >취미</a></li>
+              <li><a href="index3.html">주소지</a></li>
+            </ol>
+            <div class="word">
+              성별: 남 
+            </br>
+                좋아하는 것: 운동 
+            </br>
+            <script>         // 스크립트에 12+12로 24를 출력함
+            document.write('나이:');               
+            document.write(12+12);
+          </script>
+          </br>
+            싫어하는 음식:
+          <script>  // 변수 선언 하고 변수 안에 값을 넣어서 출력 
+            var hatefood = '오이';
+            document.write(hatefood);
+            </script>
+            </br>
+            대외 할동: 무
+            </br>
+            학년 : 2학년
+            </br>
+            <strong>각오</strong> : 오랫동안 외국에 살다가 와서 아직 한국 적응 중입니다. 지금 한국 온지 4년째인데 아직도 모르는 것들 투성이여서 여러분이 많이 도와주세요!!
+            </p>
             </div>
-            <section>
-              <h2></h2>
-              <div id="grid">
-                <ol>
-                  <li><a href="index1.html">학력</a></li>
-                  <li><a href="index2.html" >취미</a></li>
-                  <li><a href="index3.html">주소지</a></li>
-                </ol>
-                <div class="word">
-                    <section>
-                        <h2>학력</h2>
-                        <div class="float-wrap">
-                          <p class="title">소주외국어학교</p>
-                          <p class="year-text">2007 - 2013</p>
-                        </div>
-                        <p class="desc-text">1-6학년까지 다님</p>
-                        <div class="float-wrap">
-                          <p class="title">소주원구외국어학교</p>
-                          <p class="year-text">2013 - 2016</p>
-                        </div>
-                        <p class="desc-text">중학교1학년 부터 중학교 3학년까지 로컬 학교에서 다님</p>
-                        <div class="float-wrap">
-                            <a href="http://wxks.kr/"> <p class="title">무석한국학교</a></p>
-                            <p class="year-text">2016 - 2018</p>
-                        </div>
-                        <p class="desc-text">현지에 있는 한국인들만 다니는 학교에서 고등학교 졸업하기 전까지 다님</p>
-                      </section>
-                </div>
-             </div>   
-            </section>
-          </div>
-         
-        </body>
-        </html>
+         </div>   
+        </section>
+    </body>
+    </html>
+    
